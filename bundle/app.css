@@ -671,8 +671,6 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  background: -webkit-linear-gradient(bottom, rgba(192,207,221,1) 0%, rgba(196,204,218,0) 10%, rgba(196,204,218,1) 20%);
-  background: linear-gradient(bottom, rgba(192,207,221,1) 0%, rgba(196,204,218,0) 10%, rgba(196,204,218,1) 20%);
 }
 
 .cart__title {
@@ -786,6 +784,15 @@ a {
   font-size: 18px;
   font-family: "AvenirNext-UltraLight";  
   margin: 0 10px;
+}
+
+.cart-checkout-overlay {
+  position: fixed;
+  bottom: 250px;
+  width: 100%;
+  height: 15%;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(196,204,218,1) 50%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(196,204,218,1) 50%);
 }
 
 .checkout {
